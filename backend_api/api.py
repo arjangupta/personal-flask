@@ -4,4 +4,4 @@ app = Flask(__name__)
 
 @app.route('/home')
 def display_welcome_message():
-    return "Welcome to Arjan Gupta's personal website"
+    return "<p> Welcome to Arjan Gupta's personal website! </p> <p> This website is currently under construction. Please check back later. Thank you! <p>"
